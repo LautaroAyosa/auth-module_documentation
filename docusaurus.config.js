@@ -15,15 +15,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://authmodule-docs.lautaroayosa.com.ar',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Lautaro Ayosa', // Usually your GitHub org/user name.
+  projectName: 'AuthModule', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/LautaroAyosa/AuthModule',
         },
         blog: {
           showReadingTime: true,
@@ -57,7 +57,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/LautaroAyosa/AuthModule/interactive-docs',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -84,7 +84,7 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'sidebar',
             position: 'left',
             label: 'Documentation',
           },
@@ -103,7 +103,15 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Setup',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Api',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Frontend',
                 to: '/docs/intro',
               },
             ],
@@ -112,16 +120,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://discord.gg/s9a66Ytb',
               },
             ],
           },
@@ -129,17 +129,21 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'AuthModule Blog',
                 to: '/blog',
               },
               {
+                label: 'Personal Blog',
+                to: 'https://lautaroayosa.com.ar/blog',
+              },
+              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/LautaroAyosa/AuthModule',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Lautaro Ayosa - AuthModule. <br/> <p style="font-size:11px">Docs built with <a href="https://docusaurus.io/" target="_blank">Docusaurus</a></p>`,
       },
       prism: {
         theme: prismThemes.github,

@@ -1,3 +1,8 @@
+---
+tags:
+  - docusaurus
+---
+
 # Authentication Module
 
 ## Overview
