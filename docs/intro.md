@@ -1,7 +1,7 @@
 ---
-id: greetings
+id: intro
 title: Welcome!
-slug: /
+slug: /intro
 ---
 
 # 📢 Welcome to the Authentication Module Docs!

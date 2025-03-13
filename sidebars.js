@@ -31,7 +31,7 @@ const sidebars = {
   ],
    */
   sidebar: [
-    "greetings",
+    "intro",
     {
       type: "category",
       label: "Overview",
