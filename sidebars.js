@@ -51,10 +51,104 @@ const sidebars = {
       }],
     },
     {
-      type: "category",
-      label: "API",
-      items: ["api/authentication"],
-    }
+      type: 'category',
+      label: 'API Endpoints',
+      items: [
+        {
+          type: 'doc',
+          id: 'api/api-endpoint-overview',
+          label: 'API Endpoint Overview',
+        },
+        {
+          type: 'category',
+          label: ' ',
+          customProps: { method: 'GET' },
+          items: [
+            {
+              type: 'doc',
+              id: 'api/get/validate-session',
+              label: 'Validate Session',
+              customProps: { method: 'GET' },
+            },
+          ]
+        },
+        {
+          type: 'category',
+          label: ' ',
+          customProps: { method: 'POST' },
+          items: [
+            {
+              type: 'doc',
+              id: 'api/post/register',
+              label: 'Register',
+              customProps: { method: 'POST' },
+            },
+            {
+              type: 'doc',
+              id: 'api/post/login',
+              label: 'Login',
+              customProps: { method: 'POST' },
+            },
+            {
+              type: 'doc',
+              id: 'api/post/request-reset-password',
+              label: 'Password Reset Request',
+              customProps: { method: 'POST' },
+            },
+            {
+              type: 'doc',
+              id: 'api/post/reset-password',
+              label: 'Password Reset',
+              customProps: { method: 'POST' },
+            },
+            {
+              type: 'doc',
+              id: 'api/post/verify-mfa',
+              label: 'Verify MFA',
+              customProps: { method: 'POST' },
+            },
+            {
+              type: 'doc',
+              id: 'api/post/enable-mfa',
+              label: 'Enable MFA',
+              customProps: { method: 'POST' },
+            },
+            {
+              type: 'doc',
+              id: 'api/post/recover-mfa',
+              label: 'Recover MFA',
+              customProps: { method: 'POST' },
+            },
+            {
+              type: 'doc',
+              id: 'api/post/logout',
+              label: 'Logout',
+              customProps: { method: 'POST' },
+            },
+          ]
+        },
+        {
+          type: 'category',
+          label: ' ',
+          customProps: { method: 'PUT' },
+          items: [
+            {
+              type: 'doc',
+              id: 'api/put/update-user',
+              label: 'Update User',
+              customProps: { method: 'PUT' },
+            },
+            {
+              type: 'doc',
+              id: 'api/put/update-email',
+              label: 'Update Email',
+              customProps: { method: 'PUT' },
+            },
+          ]
+        },
+        
+      ],
+    },
   ]
 };
 
