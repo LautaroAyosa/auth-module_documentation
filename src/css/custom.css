@@ -28,3 +28,81 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+/* Endpoint Summary Objects */
+.route-container-link:hover {
+  text-decoration: none;
+}
+.route-container {
+  padding: .5rem 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--ifm-heading-color);
+  margin: 10px 0px;
+}
+.endpoint-main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.endpoint-type {
+  font-weight: bold; 
+  color: #000;
+  padding: .1rem 1rem;
+  border-radius: 4px;
+  color: white;
+}
+.endpoint-code {
+  background-color: var(--ifm-navbar-background-color);
+  padding: .2rem .4rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+.endpoint-description {
+  font-size: .9rem;
+  color: #333;
+}
+.put {
+  border-left: 4px solid #eec12d;
+  background-color: #fcffd5;
+}
+.put .endpoint-type, .sidebar-put {
+  background-color: #eec12d;
+}
+.post {
+  border-left: 4px solid #28A745;
+  background-color: #E6F9E6;
+}
+.post .endpoint-type, .sidebar-post {
+  background-color: #28A745;
+}
+.get {
+  border-left: 4px solid #1b85cc;
+  background-color: #d1ebfc;
+}
+.get .endpoint-type, .sidebar-get {
+  background-color: #1b85cc;
+}
+.delete {
+  border-left: 4px solid #a72828;
+  background-color: #f9e6e6;
+}
+.delete .endpoint-type, .sidebar-delete {
+  background-color: #a72828;
+}
+.route-container p {
+  margin: 0px !important;
+}
+
+/* Sidebar */
+/* .sidebar-{method} not included in this section. It's inside "Endpoint Summary Object" */
+.sidebar-method {
+  padding: .1rem .6rem;
+  border-radius: 4px;
+  color: white;
+  margin-right: 8px;
+  font-size: 14px;
+}
