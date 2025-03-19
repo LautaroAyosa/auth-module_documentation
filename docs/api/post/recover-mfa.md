@@ -11,7 +11,6 @@
 </div>
 
 
-
 ## **1. General Information**
 - **Endpoint:** `POST /auth/recover-mfa`
 - **Authentication Required?** ❌ No (Users must be able to recover their account even if they cannot log in)

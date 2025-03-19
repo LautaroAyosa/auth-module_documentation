@@ -10,6 +10,7 @@
     <p class="endpoint-description">Authenticates a user and issues tokens for accessing protected resources.</p>
 </div>
 
+
 ## **1. General Information**
 - **Endpoint:** `POST /auth/login`
 - **Authentication Required?** ❌ No (Public endpoint)

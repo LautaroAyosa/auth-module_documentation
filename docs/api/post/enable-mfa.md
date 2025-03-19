@@ -10,7 +10,6 @@
     <p class="endpoint-description">Enables MFA for the authenticated user and provides a QR code for setup.</p>
 </div>
 
----
 
 ## **1. General Information**
 - **Endpoint:** `POST /auth/enable-mfa`

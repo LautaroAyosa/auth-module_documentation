@@ -11,6 +11,7 @@
     <p class="endpoint-description">Creates a new user</p>
 </div>
 
+
 ## **1. General Information**
 - **Endpoint:** `POST /auth/register`
 - **Authentication Required?** ❌ No (Public endpoint)

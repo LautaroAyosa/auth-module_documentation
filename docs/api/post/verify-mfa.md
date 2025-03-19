@@ -10,6 +10,7 @@
     <p class="endpoint-description">Verifies a user's MFA token to complete the login process.</p>
 </div>
 
+
 ## **1. General Information**
 - **Endpoint:** `POST /auth/verify-mfa`
 - **Authentication Required?** ❌ No

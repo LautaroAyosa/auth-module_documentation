@@ -10,7 +10,6 @@
     <p class="endpoint-description">Allows users to update their account details.</p>
 </div>
 
----
 
 ## **1. General Information**
 - **Endpoint:** `PUT /auth/update-user`
