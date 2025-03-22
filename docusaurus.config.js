@@ -11,14 +11,14 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Auth Module Documentation',
-  tagline: 'Documentation for a Authentication Module',
+  tagline: 'Documentation for the Authentication Module',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://authmodule-docs.lautaroayosa.com.ar',
+  url: 'https://auth-module.lautaroayosa.com.ar/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/documentation/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/LautaroAyosa/AuthModule',
+            'https://github.com/LautaroAyosa/auth-module',
         },
         blog: {
           showReadingTime: true,
@@ -57,7 +57,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/LautaroAyosa/AuthModule/interactive-docs',
+            'https://github.com/LautaroAyosa/auth-module_documentation',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
